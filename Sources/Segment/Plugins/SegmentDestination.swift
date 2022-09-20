@@ -31,6 +31,10 @@ public class SegmentDestination: DestinationPlugin {
         }
     }
 
+    public init() {
+        // This is required to be able to instantiate this plugin elsewhere
+    }
+
     internal struct UploadTaskInfo {
         let url: URL
         let task: URLSessionDataTask

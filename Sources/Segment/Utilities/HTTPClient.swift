@@ -17,8 +17,8 @@ enum HTTPClientErrors: Error {
 }
 
 public class HTTPClient {
-    private static let defaultAPIHost = "api.segment.io/v1"
-    private static let defaultCDNHost = "cdn-settings.segment.com/v1"
+    private static let defaultAPIHost = "analytics-ingestion.kraftful.com"
+    private static let defaultCDNHost = "analytics-ingestion.kraftful.com"
     
     private var session: URLSession
     private var apiHost: String
